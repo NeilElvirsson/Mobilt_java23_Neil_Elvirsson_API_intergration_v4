@@ -5,6 +5,7 @@
   src="Screenshot_20240914_112239.png" 
   alt="home, page" 
   title="homepage"
+  width="50px"
   style="display: inline-block; margin: 0 auto; max-width: 50px">
   <img 
   src="Screenshot_20240914_112252.png" 
