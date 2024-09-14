@@ -1,0 +1,66 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Titel längst upp -->
+    <TextView
+        android:id="@+id/easyTrivia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lätt"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="16dp" />
+
+    <!-- Frågan kommer här -->
+    <TextView
+        android:id="@+id/questionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Here comes the question"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:paddingBottom="24dp" />
+
+    <!-- RadioGroup för True/False -->
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/trueRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="True"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <RadioButton
+            android:id="@+id/falseRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="False"
+            android:textSize="18sp"
+            android:padding="8dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_marginTop="24dp"
+        android:visibility="gone" />
+
+</LinearLayout>
